@@ -1,0 +1,50 @@
+{
+    "manufacturer": "YourName",
+    "keyboard_name": "my_macropad",
+    "maintainer": "YourName",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "console": false,
+        "command": false,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP3"],
+            ["GP4"],
+            ["GP2"],
+            ["GP29"],
+            ["GP1"]
+        ]
+    },
+    "processor": "RP2040",
+    "board": "GENERIC_PROMICRO_RP2040",
+    "encoder": {
+        "rotary": [
+            { "pin_a": "GP28", "pin_b": "GP0" }
+        ]
+    },
+    "i2c_driver": {
+        "sda_pin": "GP6",
+        "scl_pin": "GP7"
+    },
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0001",
+        "device_version": "1.0.0"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [1, 0], "x": 1, "y": 0 },
+                { "matrix": [2, 0], "x": 0, "y": 1 },
+                { "matrix": [3, 0], "x": 1, "y": 1 },
+                { "matrix": [4, 0], "x": 2, "y": 0 }
+            ]
+        }
+    }
+}
