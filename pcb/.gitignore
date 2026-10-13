@@ -1,0 +1,17 @@
+# KiCad backups, locks, and caches
+*.bak
+*-bak
+~*.lck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+fp-info-cache
+_autosave-*
+*-save.pro
+
+# KiCad plot/export output (regenerate from source, don't track)
+*.pos
+*.drl
+*.gbr
+*.gbrjob
+*.ps
+*.rpt
