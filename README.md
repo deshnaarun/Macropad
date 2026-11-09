@@ -35,7 +35,7 @@ The OLED displays a cat.
 4x 1u MX keycaps 
 1x EC11 rotary encoder with push switch 
 * 1x Encoder knob 
-*  1x 0.96" 128x64 SSD1306 I2C OLED (pin order GND-VCC-SCL-SDA) 
+*  1x 0.91" 128x32 SSD1306 I2C OLED (pin order GND-VCC-SCL-SDA) 
 *   1x Seeed XIAO RP2040 
 *   4x M3 screws 
 *   1x PCB 
