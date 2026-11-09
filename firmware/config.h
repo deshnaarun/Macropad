@@ -8,6 +8,6 @@
 #define I2C1_SDA_PIN GP6
 #define I2C1_SCL_PIN GP7
 
-/* 0.96" 128x64 SSD1306 per the schematic. Remove this line if the module
- * you actually bought is the 0.91" 128x32 one. */
-#define OLED_DISPLAY_128X64
+/* 0.91" 128x32 SSD1306 OLED. (Originally 0.96" 128x64 -- switched because
+ * that screen's shape didn't fit the board; see keymap.c's OLED_DISPLAY_128X64
+ * branch for the layout difference.) */

@@ -6,7 +6,7 @@ A 4-key macropad with a rotary encoder and OLED display, built around the Seeed 
 
 - 4 Cherry MX-style mechanical switches
 - Rotary encoder with push-button (volume up/down + mute by default)
-- 0.96" 128x64 SSD1306 OLED display showing a pixel-art cat that reacts to typing speed (sleeps when idle, walks at normal pace, runs when typed quickly)
+- 0.91" 128x32 SSD1306 OLED display showing a pixel-art cat that reacts to typing speed (sleeps when idle, walks at normal pace, runs when typed quickly)
 - Custom 3D-printed two-part case (base + lid)
 
 ## Repo structure

@@ -2169,7 +2169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSD1306"
+		(property "Value" "OLED 0.91 128x32"
 			(at 255.27 75.5649 0)
 			(effects
 				(font
@@ -2178,7 +2178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SSD1306:128x64OLED"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 247.65 71.12 0)
 			(effects
 				(font
