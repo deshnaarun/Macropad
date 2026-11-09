@@ -15,7 +15,8 @@ I started this project as a way to experiment with hardware.
 The case is two printed parts with a base that holds the PCB and a lid that screws on top. 
 Made in Fusion360
 
-<img width="801" height="512" alt="image" src="https://github.com/user-attachments/assets/ad65a3dc-2b7b-46d7-98f6-3626e8b556b6" />
+<img width="472" height="496" alt="image" src="https://github.com/user-attachments/assets/cc051c33-91fe-4437-8264-a94d3663a20c" />
+
 
 ## PCB 
 Made in KiCad. It's a 2 layer board, 80 X 84 mm. Each switch goes to its own key matrix, no diodes.
