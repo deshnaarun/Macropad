@@ -16,24 +16,6 @@ A 4-key macropad with a rotary encoder and OLED display, built around the Seeed 
 - **`firmware/`** — QMK firmware source (keymap, config, OLED animation)
 - **`production/`** — Ready-to-manufacture/flash files: Gerbers, individual case part STEPs, and compiled `firmware.uf2`
 
-## Hardware
 
-| Part | Pin (XIAO D-label) | GPIO |
-|---|---|---|
-| Switch 1 | D10 | GP3 |
-| Switch 2 | D9 | GP4 |
-| Switch 3 | D8 | GP2 |
-| Switch 4 | D3 | GP29 |
-| Encoder A | D2 | GP28 |
-| Encoder B | D6 | GP0 |
-| Encoder push | D7 | GP1 |
-| OLED SDA | D4 | GP6 |
-| OLED SCL | D5 | GP7 |
-
-## Firmware
-
-Built with QMK. To flash: put the board in bootloader mode (double-tap reset on the XIAO) and drag `production/firmware.uf2` onto the RPI-RP2 drive that appears.
-
-## License
 
 MIT — see [LICENSE](LICENSE).
