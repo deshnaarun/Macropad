@@ -1,3 +1,5 @@
+> **Note (this project):** this bundled third-party library is not what's used on the board. The actual display on this macropad is a **0.91" 128x32 SSD1306 OLED**, wired through a generic 4-pin header footprint (`Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical`) — see the schematic/PCB in `../../`. Everything below describes the original 0.96"/128x64 library as published upstream.
+
 # KiCad V6+ SSD1306 0.96" OLED Library
 
 KiCad V6+ symbol and footprint for the common **SSD1306 0.96 inch 128x64 I2C OLED display module** (the blue/white 4-pin breakout sold everywhere on AliExpress, Amazon, etc).

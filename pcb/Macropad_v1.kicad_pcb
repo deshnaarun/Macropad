@@ -1232,7 +1232,7 @@
 			)
 		)
 	)
-	(footprint "PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "9a56fbd8-1fe4-441f-a9d1-9a2dc6dbe74c")
 		(at 102 31)
